@@ -1,0 +1,15 @@
+﻿<Window x:Class="TutLocalDesktopApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TutLocalDesktopApp"
+        mc:Ignorable="d"
+        Title="Greetings" Height="450" Width="800">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="212,55,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button" VerticalAlignment="Top"/>
+        <RadioButton x:Name="RadioButton1" Content="Hello" HorizontalAlignment="Left" Margin="204,151,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="RadioButton2" Content="Goodbye" HorizontalAlignment="Left" Margin="489,151,0,0" VerticalAlignment="Top"/>
+        <Button Content="Display" HorizontalAlignment="Left" Margin="364,256,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+    </Grid>
+</Window>
